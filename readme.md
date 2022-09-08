@@ -26,7 +26,7 @@ It's an arbitrary choice to put the "model" on the Business worksheet in columns
 
 <p align="center">
  Time-Based Business Simulation Work Process</br>
- <img src=images/TimeSim_Overview.png "TimeSim Overview" width=400></br>
+ <img src=images/TimeSim_Overview.png "TimeSim Overview" width=700></br>
 </p>
 
 #### Why Excel?
