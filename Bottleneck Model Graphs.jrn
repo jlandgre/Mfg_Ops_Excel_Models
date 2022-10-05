@@ -1,0 +1,291 @@
+﻿/* JMP 16.1.0   01 */
+ListBox(vertical,near,sub(
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Graph Builder"),rerun(Graph Builder(Size(578, 290), Show Control Panel(0), Variables(X(:r_tp_tb), Y(:OPR)), Elements(Points(X, Y, Legend(3)), Line(X, Y, Legend(5))), SendToReport(Dispatch({}, "graph title", TextEditBox, {Set Text("OPR versus tp:tr Ratio")})))),Context({Table("Bottleneck Model Data")}),imageExportDisplay(2),default font id(2),helpKey("Graph Builder"),
+graphics layer(gtext(text("JDL 10/6/22:\!nNote slope discontinuity at r = 1 at transition from Making Bottlenecked to Packing Bottlenecked"),from(723,153),to(1036,224),filled(false),font("Helvetica Neue"),fontsize(13),fontstyle(0),)
+)sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(1),left(1),bottom(1),right(1),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(31000),length(22),baselength(22),comp(1),length(22),baselength(22),sub(
+ScaleBox(id(41000),length(18),baselength(18),sub(
+ScaleBox(id(11000),length(516),baselength(516),sub(
+ScaleBox(id(32000),length(37),baselength(37),comp(1),length(32),baselength(32),sub(
+ScaleBox(id(42000),length(25),baselength(25),sub(
+ScaleBox(id(12000),length(228),baselength(228),sub(
+ScaleBox(id(1000),axis(scaleType(0),scaleOrig(0),scaleWidth(11),widthMajor(1),
+nbin(22),nminor(1),timeCode(0),ndec(1),ndecimals(0),ndecSpec(99),FieldWidth(12),
+MinInitInt(-0.05915),MaxInitInt(10.396),LinearInit,MajorInit(2),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showMajorGrid,showMinorGrid,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(1),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(1),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("r_tp_tb"),length(-1),baselength(-1),sub(
+ScaleBox(id(2000),axis(scaleType(0),scaleOrig(0),scaleWidth(0.96054),widthMajor(0.2),
+nbin(9),nminor(1),timeCode(0),ndec(90),ndecimals(0),ndecSpec(89),ndecimalsDeci(0),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.96054),LinearInit,MajorInit(0.2),MinorInit(1),NObsInit(100),
+options(showMajorTicks,showMinorTicks,showMajorGrid,showMinorGrid,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(1),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(1),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("OPR"),length(-1),baselength(-1),sub(
+ScaleBox(id(1500),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(2500),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(400),length(-1),baselength(-1),nmodels(2),model(id(3),n(1),name(""),levels("OPR"),types(1),properties(properties(fill color(2147483647),),),,),model(id(5),n(1),name(""),levels("OPR"),types(2),properties(properties(line(color(-3692965), width(2)),fill color(2147483647),),),,),nmodels12(2),model12(id(3),n(1),name(""),levels("OPR"),types(1),properties(properties(fill color(2147483647),),),,),model12(id(5),n(1),name(""),levels("OPR"),types(2),properties(properties(line(color(-3692965), width(2)),fill color(2147483647),),),,),sub(
+ParallelScaleBox(axis(id(100000),wa(scaleType(0),scaleOrig(0),scaleWidth(10),widthMajor(2),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(10),LinearInit,MajorInit(2),MinorInit(1),NObsInit(19),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),axis(id(100001),wa(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.2),
+nbin(10),nminor(1),timeCode(0),ndec(90),ndecimals(0),ndecSpec(89),ndecimalsDeci(0),FieldWidth(12),
+MinInitInt(0),MaxInitInt(1),LinearInit,MajorInit(0.2),MinorInit(1),NObsInit(19),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+TextEditBox("OPR versus Batch Time to Packing Time Ratio",default font id(12),nameid("graph title/OPR vs. r_tp_tb"),wrapWidth(578),justification(1),minSize(172,20),maxSize(578,20),BaseSize(0,0),sizeID(11000,0,1,1,62,0),Horizontal Alignment("Center"),User Resizable({0, 0}),),
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+CenterBox(vert,sizeID(42000,12000),boxcentering(0,1),ystretch("Fill"),sub(
+TextEditBox("OPR",default font id(9),nameid("Y title/OPR"),wrapWidth(228),justification(1),minSize(25,14),maxSize(25,14),BaseSize(0,0),Horizontal Alignment("Right"),User Resizable({0, 0}),Vertical Alignment("Center"),))))),
+ListBox(vertical,near,sub(
+AxisBox(side(R),size(37,228),locked(false),scales(32000,12000,0,2000),))),
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+FrameBox(size(516,228),border(12303),flags(0),markerSize(-1),right scales(11000,12000,1000,2500),scales(11000,12000,1000,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(3),legend model item(0),n(19),nv(1),MarkerItem(
+x(0.1,0.2,0.4,0.5,0.6,0.8,1,1.2,1.4,1.5
+,1.6,1.8,2,3,4,5,6,8,10),
+y(0.909,0.833,0.714,0.667,0.625,0.556,0.5,0.417,0.357,0.333
+,0.313,0.278,0.25,0.167,0.125,0.1,0.083,0.063,0.05),),),LineSeg(description("Line"),legend server ID(400),legend model ID(5),legend model item(0),properties(color(-3692965), width(2)),n(19),
+x(0.1,0.2,0.4,0.5,0.6,0.8,1,1.2,1.4,1.5
+,1.6,1.8,2,3,4,5,6,8,10),
+y(0.909,0.833,0.714,0.667,0.625,0.556,0.5,0.417,0.357,0.333
+,0.313,0.278,0.25,0.167,0.125,0.1,0.083,0.063,0.05),log curve(false),selectable(true),selectionMode(0),connectMissing(0),domainDim(0),)),))))))),
+ListBox(horizontal,near,sub(
+ListBox(horizontal,near,sub(
+SpacerBox(size(25,1),minSize(1,1),maxSize(25,1),BaseSize(1,1),fillColor(2147483647),sizeID(42000,0),xstretching(0),xstretch("Off"),ystretch("Off"),),
+SpacerBox(size(37,1),minSize(1,1),maxSize(37,1),BaseSize(1,1),fillColor(2147483647),sizeID(32000,0),xstretching(0),xstretch("Off"),ystretch("Off"),))),
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+AxisBox(side(T),size(516,22),locked(false),scales(11000,31000,1000,0),))),
+ListBox(horizontal,near,sub(
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),xstretch("Fill"),sub(
+TextEditBox("r_tp_tb",default font id(9),nameid("X title/r_tp_tb"),wrapWidth(516),justification(1),minSize(36,14),maxSize(36,14),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))))))))))),
+SpacerBox(size(4,1),minSize(4,1),maxSize(4,1),BaseSize(4,1),fillColor(2147483647),xstretch("Off"),ystretch("Off"),),
+LegendBox(size(-69,-48),Flags(2),vertical(true),title vertical(true),max levels(60),legendid(400),N Legends(2),Legend item(type(1),properties(fill color(2147483647),),label("OPR"),),Legend item(type(2),properties(line(color(-3692965), width(2)),fill color(2147483647),),label("OPR"),),))))))))))))))))))))))))))))))))))))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Graph Builder"),rerun(Graph Builder(Size(895, 676), Show Control Panel(0), Variables(X(:time), Y(:r_tp_tb), Y(:Prodn Activity, Position(1)), Color(:Prodn Activity)), Elements(Points(X, Y(1), Y(2), Legend(15), Jitter("None")), Line(X, Y(1), Y(2), Legend(16), Row order(1), Missing Values("No Connection"))), SendToReport(Dispatch({}, "time", ScaleBox, {Min(-60), Max(1800), Inc(600), Minor Ticks(9), Label Row({Show Major Grid(1), Show Minor Grid(1)})}), Dispatch({}, "r_tp_tb", ScaleBox, {Add Ref Line(11.5, "Solid", "Black", "", 1, 1, Label Settings({Set Font Size(14)})), Label Row(2, Show Major Grid(1))}), Dispatch({}, "400", ScaleBox, {Legend Model(15, Base(0, 0, 0, Item ID("Make A", 1)), Base(1, 0, 1, Item ID("Pack A", 1)), Base(2, 0, 2, Item ID("Make B", 1)), Base(3, 0, 3, Item ID("Pack B", 1)), Properties(0, {Line Color(5)}, Item ID("Make A", 1)), Properties(1, {Line Color(5)}, Item ID("Pack A", 1)), Properties(2, {Line Color(4)}, Item ID("Make B", 1)), Properties(3, {Line Color(4)}, Item ID("Pack B", 1)), Base(-1, 0, 0, Item ID("0.1", 1)), Base(-1, 0, 0, Item ID("0.5", 1)), Base(-1, 0, 0, Item ID("1", 1)), Base(-1, 0, 0, Item ID("1.5", 1)), Base(-1, 0, 0, Item ID("2", 1)), Base(-1, 0, 0, Item ID("5", 1))), Legend Model(16, Properties(0, {Line Color(5)}, Item ID("Make A", 1)), Properties(1, {Line Color(5)}, Item ID("Pack A", 1)), Properties(2, {Line Color(4)}, Item ID("Make B", 1)), Properties(3, {Line Color(4)}, Item ID("Pack B", 1)))}), Dispatch({}, "graph title", TextEditBox, {Set Font Size(24), Set Text("Batch Making And Packing Event Times")}), Dispatch({}, "X title", TextEditBox, {Set Font Size(18), Set Text("Cumulative Time (minutes)")}), Dispatch({}, "Y title", TextEditBox, {Set Font Size(18), Set Text("r (tp:tb ratio)")}), Dispatch({}, "Graph Builder", FrameBox, {Add Text Annotation(Text("r > 1 Packing Limited"), Fixed Size(0), Text Box({608, 186, 747, 206}), Filled(0)), Add Text Annotation(Text("r < 1 Making Limited"), Fixed Size(0), Text Box({608, 261, 743, 281}), Filled(0), Background Color("White"))}), Dispatch({}, "400", LegendBox, {Legend Position({15, [-1, -1, -1, -1], 16, [0, 1, 2, 3]})})))),Context({Table("Combined Graph Data")}),imageExportDisplay(2),default font id(2),helpKey("Graph Builder"),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(1),left(1),bottom(1),right(1),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(31000),length(22),baselength(22),comp(1),length(22),baselength(22),sub(
+ScaleBox(id(41000),length(22),baselength(22),sub(
+ScaleBox(id(11000),length(800),baselength(800),sub(
+ScaleBox(id(32000),length(73),baselength(73),comp(1),length(46),baselength(46),comp(2),length(22),baselength(22),sub(
+ScaleBox(id(42000),length(22),baselength(22),sub(
+ScaleBox(id(12000),length(600),baselength(600),sub(
+ScaleBox(id(1000),axis(scaleType(0),scaleOrig(-60),scaleWidth(1860),widthMajor(600),
+nbin(31),nminor(9),timeCode(0),ndec(1),ndecimals(0),ndecSpec(99),FieldWidth(12),
+MinInitInt(-15.606),MaxInitInt(1603.44),LinearInit,MajorInit(500),MinorInit(1),NObsInit(288),
+options(showMajorTicks,showMinorTicks,showMajorGrid,showMinorGrid,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(1),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(1),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("time"),length(-1),baselength(-1),sub(
+ScaleBox(id(2000),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(20),widthMajor(1),
+nbin(20),nminor(0),timeCode(0),ndec(0),FieldWidth(17),
+MinInitInt(-0.5),MaxInitInt(19.5),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),ref lines(n(1),value(11.5),style(0),color(0),),scaleTypeOptions(),nLabelRows(2),labelRows(labelRowTickList(default font id(7),axisTick(type(1),style(1),label("Make A"),value(-0.5),width(1),),axisTick(type(1),style(1),label("Pack A"),value(0.5),width(1),),axisTick(type(1),style(1),label("Make B"),value(1.5),width(1),),axisTick(type(1),style(1),label("Pack B"),value(2.5),width(1),),axisTick(type(1),style(1),label("Make A"),value(3.5),width(1),),axisTick(type(1),style(1),label("Pack A"),value(4.5),width(1),),axisTick(type(1),style(1),label("Make B"),value(5.5),width(1),),axisTick(type(1),style(1),label("Pack B"),value(6.5),width(1),),axisTick(type(1),style(1),label("Make A"),value(7.5),width(1),),axisTick(type(1),style(1),label("Pack A"),value(8.5),width(1),),axisTick(type(1),style(1),label("Make B"),value(9.5),width(1),),axisTick(type(1),style(1),label("Pack B"),value(10.5),width(1),),axisTick(type(1),style(1),label("Make A"),value(11.5),width(1),),axisTick(type(1),style(1),label("Pack A"),value(12.5),width(1),),axisTick(type(1),style(1),label("Make B"),value(13.5),width(1),),axisTick(type(1),style(1),label("Pack B"),value(14.5),width(1),),axisTick(type(1),style(1),label("Make A"),value(15.5),width(1),),axisTick(type(1),style(1),label("Pack A"),value(16.5),width(1),),axisTick(type(1),style(1),label("Make B"),value(17.5),width(1),),axisTick(type(1),style(1),label("Pack B"),value(18.5),width(1),),),labelRowTickList(default font id(7),axisTick(type(1),style(3),label("0.1"),value(-0.5),width(4),),axisTick(type(1),style(3),label("0.5"),value(3.5),width(4),),axisTick(type(1),style(3),label("1"),value(7.5),width(4),),axisTick(type(1),style(3),label("1.5"),value(11.5),width(4),),axisTick(type(1),style(3),label("2"),value(15.5),width(4),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(0),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(0),Tick Mark Style("Long Mark"),Truncate format to interval(1),Wrap Lines(4),default font id(7),axisTick(type(2),label("Make A"),value(-0.5),width(1),),axisTick(type(2),label("Pack A"),value(0.5),width(1),),axisTick(type(2),label("Make B"),value(1.5),width(1),),axisTick(type(2),label("Pack B"),value(2.5),width(1),),axisTick(type(2),label("Make A"),value(3.5),width(1),),axisTick(type(2),label("Pack A"),value(4.5),width(1),),axisTick(type(2),label("Make B"),value(5.5),width(1),),axisTick(type(2),label("Pack B"),value(6.5),width(1),),axisTick(type(2),label("Make A"),value(7.5),width(1),),axisTick(type(2),label("Pack A"),value(8.5),width(1),),axisTick(type(2),label("Make B"),value(9.5),width(1),),axisTick(type(2),label("Pack B"),value(10.5),width(1),),axisTick(type(2),label("Make A"),value(11.5),width(1),),axisTick(type(2),label("Pack A"),value(12.5),width(1),),axisTick(type(2),label("Make B"),value(13.5),width(1),),axisTick(type(2),label("Pack B"),value(14.5),width(1),),axisTick(type(2),label("Make A"),value(15.5),width(1),),axisTick(type(2),label("Pack A"),value(16.5),width(1),),axisTick(type(2),label("Make B"),value(17.5),width(1),),axisTick(type(2),label("Pack B"),value(18.5),width(1),),),LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(0),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Show Major Grid(1),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Interval Tray"),Truncate format to interval(1),Wrap Lines(4),default font id(7),axisTick(type(2),label("0.1"),value(-0.5),width(4),),axisTick(type(2),label("0.5"),value(3.5),width(4),),axisTick(type(2),label("1"),value(7.5),width(4),),axisTick(type(2),label("1.5"),value(11.5),width(4),),axisTick(type(2),label("2"),value(15.5),width(4),),),),),charid("r_tp_tb"),length(-1),baselength(-1),sub(
+ScaleBox(id(1500),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(2500),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(400),length(-1),baselength(-1),nmodels(2),model(id(15),n(4),name("Prodn Activity"),levels("Make A","Pack A","Make B","Pack B"),types(1,1,1,1),properties(properties(line(color(5)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(5)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),),baseID(0,0,0,0),baseItem(0,1,2,3),,),model(id(16),n(4),name("Prodn Activity"),levels("Make A","Pack A","Make B","Pack B"),types(2,2,2,2),properties(properties(line(color(5), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(5), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),),,),nmodels12(2),model12(id(15),n(4),name("Prodn Activity"),levels("Make A","Pack A","Make B","Pack B"),types(1,1,1,1),properties(properties(line(color(5)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(5)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),),baseID(0,0,0,0),baseItem(0,1,2,3),,),model12(id(16),n(4),name("Prodn Activity"),levels("Make A","Pack A","Make B","Pack B"),types(2,2,2,2),properties(properties(line(color(5), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(5), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),,properties(line(color(4), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),),,),sub(
+ParallelScaleBox(axis(id(100000),wa(scaleType(0),scaleOrig(0),scaleWidth(1750),widthMajor(500),
+nbin(7),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(1750),LinearInit,MajorInit(500),MinorInit(1),NObsInit(288),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),axis(id(100001),wa(scaleType(0),scaleOrig(0),scaleWidth(4),widthMajor(1),
+nbin(4),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(4),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(labelRowTickList(default font id(7),axisTick(type(1),style(1),label("0.1"),value(-0.5),width(1),),axisTick(type(1),style(1),label("0.5"),value(0.5),width(1),),axisTick(type(1),style(1),label("1"),value(1.5),width(1),),axisTick(type(1),style(1),label("1.5"),value(2.5),width(1),),axisTick(type(1),style(1),label("2"),value(3.5),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(0),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(0),Tick Mark Style("Long Mark"),Truncate format to interval(1),Wrap Lines(4),default font id(7),axisTick(type(2),label("0.1"),value(-0.5),width(1),),axisTick(type(2),label("0.5"),value(0.5),width(1),),axisTick(type(2),label("1"),value(1.5),width(1),),axisTick(type(2),label("1.5"),value(2.5),width(1),),axisTick(type(2),label("2"),value(3.5),width(1),),),),)),axis(id(100002),wa(scaleType(0),scaleOrig(0),scaleWidth(3),widthMajor(1),
+nbin(3),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(3),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(labelRowTickList(default font id(7),axisTick(type(1),style(1),label("Make A"),value(-0.5),width(1),),axisTick(type(1),style(1),label("Pack A"),value(0.5),width(1),),axisTick(type(1),style(1),label("Make B"),value(1.5),width(1),),axisTick(type(1),style(1),label("Pack B"),value(2.5),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(0),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(0),Tick Mark Style("Long Mark"),Truncate format to interval(1),Wrap Lines(4),default font id(7),axisTick(type(2),label("Make A"),value(-0.5),width(1),),axisTick(type(2),label("Pack A"),value(0.5),width(1),),axisTick(type(2),label("Make B"),value(1.5),width(1),),axisTick(type(2),label("Pack B"),value(2.5),width(1),),),),)),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+TextEditBox("Batch Making And Packing Event Times",font("Helvetica Neue"),fontsize(24),fontstyle(1),fontchangeinfo(2),nameid("graph title/time vs. r_tp_tb & Prodn Activity"),wrapWidth(895),justification(1),minSize(458,30),maxSize(895,30),BaseSize(0,0),sizeID(11000,0,1,1,95,0),Horizontal Alignment("Center"),User Resizable({0, 0}),),
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+CenterBox(vert,sizeID(42000,12000),boxcentering(0,1),ystretch("Fill"),sub(
+TextEditBox("r (tp:tb ratio)",font("Helvetica Neue"),fontsize(18),fontstyle(0),fontchangeinfo(2),nameid("Y title/r_tp_tb / Prodn Activity"),wrapWidth(600),justification(1),left,minSize(22,100),maxSize(22,100),BaseSize(0,0),Horizontal Alignment("Right"),User Resizable({0, 0}),Vertical Alignment("Center"),))))),
+ListBox(vertical,near,sub(
+AxisBox(side(R),size(73,600),locked(false),scales(32000,12000,0,2000),))),
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+FrameBox(size(800,600),border(12303),flags(0),markerSize(-1),right scales(11000,12000,1000,2500),scales(11000,12000,1000,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(15),legend model item(0),properties(color(5)),n(240),nv(1),MarkerItem(
+x(90,99,.,139.5,148.5,.,189,198,.,238.5
+,247.5,.,288,297,.,337.5,346.5,.,387,396
+,.,436.5,445.5,.,90,135,.,157.5,202.5,.
+,225,270,.,292.5,337.5,.,360,405,.,427.5
+,472.5,.,495,540,.,562.5,607.5,.,90,180
+,.,180,270,.,270,360,.,360,450,.
+,450,540,.,540,630,.,630,720,.,720
+,810,.,90,225,.,225,360,.,360,495
+,.,495,630,.,630,765,.,765,900,.
+,900,1035,.,1035,1170,.,90,270,.,270
+,450,.,450,630,.,630,810,.,810,990
+,.,990,1170,.,1170,1350,.,1350,1530,.
+,0,90,.,49.5,139.5,.,99,189,.,148.5
+,238.5,.,198,288,.,247.5,337.5,.,297,387
+,.,346.5,436.5,.,0,90,.,67.5,157.5,.
+,135,225,.,202.5,292.5,.,270,360,.,337.5
+,427.5,.,405,495,.,472.5,562.5,.,0,90
+,.,90,180,.,180,270,.,270,360,.
+,360,450,.,450,540,.,540,630,.,630
+,720,.,0,90,.,112.5,202.5,.,225,315
+,.,360,450,.,495,585,.,630,720,.
+,765,855,.,900,990,.,0,90,.,135
+,225,.,270,360,.,450,540,.,630,720
+,.,810,900,.,990,1080,.,1170,1260,.
+),
+y(1,1,1,3,3,3,1,1,1,3
+,3,3,1,1,1,3,3,3,1,1
+,1,3,3,3,5,5,5,7,7,7
+,5,5,5,7,7,7,5,5,5,7
+,7,7,5,5,5,7,7,7,9,9
+,9,11,11,11,9,9,9,11,11,11
+,9,9,9,11,11,11,9,9,9,11
+,11,11,13,13,13,15,15,15,13,13
+,13,15,15,15,13,13,13,15,15,15
+,13,13,13,15,15,15,17,17,17,19
+,19,19,17,17,17,19,19,19,17,17
+,17,19,19,19,17,17,17,19,19,19
+,0,0,0,2,2,2,0,0,0,2
+,2,2,0,0,0,2,2,2,0,0
+,0,2,2,2,4,4,4,6,6,6
+,4,4,4,6,6,6,4,4,4,6
+,6,6,4,4,4,6,6,6,8,8
+,8,10,10,10,8,8,8,10,10,10
+,8,8,8,10,10,10,8,8,8,10
+,10,10,12,12,12,14,14,14,12,12
+,12,14,14,14,12,12,12,14,14,14
+,12,12,12,14,14,14,16,16,16,18
+,18,18,16,16,16,18,18,18,16,16
+,16,18,18,18,16,16,16,18,18,18
+),),
+colorData(1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2),colorLegendID(400),colorLegendModelID(15),colorLegendItemID(0),colorLegendNItems(4),),LineSeg(description("Line"),properties(color(0)),n(240),
+x(90,99,.,139.5,148.5,.,189,198,.,238.5
+,247.5,.,288,297,.,337.5,346.5,.,387,396
+,.,436.5,445.5,.,90,135,.,157.5,202.5,.
+,225,270,.,292.5,337.5,.,360,405,.,427.5
+,472.5,.,495,540,.,562.5,607.5,.,90,180
+,.,180,270,.,270,360,.,360,450,.
+,450,540,.,540,630,.,630,720,.,720
+,810,.,90,225,.,225,360,.,360,495
+,.,495,630,.,630,765,.,765,900,.
+,900,1035,.,1035,1170,.,90,270,.,270
+,450,.,450,630,.,630,810,.,810,990
+,.,990,1170,.,1170,1350,.,1350,1530,.
+,0,90,.,49.5,139.5,.,99,189,.,148.5
+,238.5,.,198,288,.,247.5,337.5,.,297,387
+,.,346.5,436.5,.,0,90,.,67.5,157.5,.
+,135,225,.,202.5,292.5,.,270,360,.,337.5
+,427.5,.,405,495,.,472.5,562.5,.,0,90
+,.,90,180,.,180,270,.,270,360,.
+,360,450,.,450,540,.,540,630,.,630
+,720,.,0,90,.,112.5,202.5,.,225,315
+,.,360,450,.,495,585,.,630,720,.
+,765,855,.,900,990,.,0,90,.,135
+,225,.,270,360,.,450,540,.,630,720
+,.,810,900,.,990,1080,.,1170,1260,.
+),
+y(1,1,1,3,3,3,1,1,1,3
+,3,3,1,1,1,3,3,3,1,1
+,1,3,3,3,5,5,5,7,7,7
+,5,5,5,7,7,7,5,5,5,7
+,7,7,5,5,5,7,7,7,9,9
+,9,11,11,11,9,9,9,11,11,11
+,9,9,9,11,11,11,9,9,9,11
+,11,11,13,13,13,15,15,15,13,13
+,13,15,15,15,13,13,13,15,15,15
+,13,13,13,15,15,15,17,17,17,19
+,19,19,17,17,17,19,19,19,17,17
+,17,19,19,19,17,17,17,19,19,19
+,0,0,0,2,2,2,0,0,0,2
+,2,2,0,0,0,2,2,2,0,0
+,0,2,2,2,4,4,4,6,6,6
+,4,4,4,6,6,6,4,4,4,6
+,6,6,4,4,4,6,6,6,8,8
+,8,10,10,10,8,8,8,10,10,10
+,8,8,8,10,10,10,8,8,8,10
+,10,10,12,12,12,14,14,14,12,12
+,12,14,14,14,12,12,12,14,14,14
+,12,12,12,14,14,14,16,16,16,18
+,18,18,16,16,16,18,18,18,16,16
+,16,18,18,18,16,16,16,18,18,18
+),log curve(false),selectable(true),selectionMode(0),
+colorData(1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+1,1,1,3,3,3,1,1,1,3,
+3,3,1,1,1,3,3,3,1,1,
+1,3,3,3,1,1,1,3,3,3,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2,
+0,0,0,2,2,2,0,0,0,2,
+2,2,0,0,0,2,2,2,0,0,
+0,2,2,2,0,0,0,2,2,2),colorLegendID(400),colorLegendModelID(16),colorLegendItemID(0),colorLegendNItems(4),)),
+graphics layer(gtext(text("r > 1 Packing Limited"),from(608,186),to(747,206),filled(false),font("Helvetica Neue"),fontsize(13),fontstyle(0),)
+gtext(text("r < 1 Making Limited"),from(608,261),to(743,281),filled(false),font("Helvetica Neue"),fontsize(13),fontstyle(0),)
+)))))))),
+ListBox(horizontal,near,sub(
+ListBox(horizontal,near,sub(
+SpacerBox(size(22,1),minSize(1,1),maxSize(22,1),BaseSize(1,1),fillColor(2147483647),sizeID(42000,0),xstretching(0),xstretch("Off"),ystretch("Off"),),
+SpacerBox(size(73,1),minSize(1,1),maxSize(73,1),BaseSize(1,1),fillColor(2147483647),sizeID(32000,0),xstretching(0),xstretch("Off"),ystretch("Off"),))),
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+AxisBox(side(T),size(800,22),locked(false),scales(11000,31000,1000,0),))),
+ListBox(horizontal,near,sub(
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),xstretch("Fill"),sub(
+TextEditBox("Cumulative Time (minutes)",font("Helvetica Neue"),fontsize(18),fontstyle(0),fontchangeinfo(2),nameid("X title/time"),wrapWidth(800),justification(1),minSize(214,22),maxSize(214,22),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))))))))))),
+SpacerBox(size(4,1),minSize(4,1),maxSize(4,1),BaseSize(4,1),fillColor(2147483647),xstretch("Off"),ystretch("Off"),),
+LegendBox(size(-93,-116),name("Prodn Activity"),Flags(2),vertical(true),title vertical(true),max levels(60),legendid(400),N Legends(8),Legend item(type(1),properties(line(color(5)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(-1),label("Make A"),),Legend item(type(1),properties(line(color(5)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(-1),label("Pack A"),),Legend item(type(1),properties(line(color(4)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(-1),label("Make B"),),Legend item(type(1),properties(line(color(4)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(-1),label("Pack B"),),Legend item(type(2),properties(line(color(5), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(0),label("Make A"),),Legend item(type(2),properties(line(color(5), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(1),label("Pack A"),),Legend item(type(2),properties(line(color(4), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(2),label("Make B"),),Legend item(type(2),properties(line(color(4), width(2)),gradient(theme("JMP Default"),min lightness(.),max lightness(.),),),position(3),label("Pack B"),),))))))))))))))))))))))))))))))),
+TextBox("Where(48 rows excluded)",wrapWidth(994),minSize(994,16),maxSize(994,16),BaseSize(25,0),xstretch("Fill"),)))))))))))
